@@ -1,7 +1,8 @@
 import About from '../components/sections/About';
 import Projects from '../components/sections/Projects';
 import Experience from '../components/sections/Experience';
-import Contact from '../components/sections/Contact';
+// Temporarily commenting out Contact import
+// import Contact from '../components/sections/Contact';
 
 export default function Home() {
     return (
@@ -29,7 +30,7 @@ export default function Home() {
                     <p className="mt-4 text-xl text-slate-400 font-light">Software Engineer & Designer</p>
                     <div className="mt-8 flex flex-wrap justify-center gap-4">
                         <a href="#about" className="px-6 py-3 rounded-md bg-sky-600 text-white shadow-lg shadow-sky-500/20 hover:bg-sky-500 transition-all">View My Work</a>
-                        <a href="#contact" className="px-6 py-3 rounded-md bg-slate-800 border border-slate-700 text-white shadow-lg hover:bg-slate-700 transition-all">Contact Me</a>
+                        {/* <a href="#contact" className="px-6 py-3 rounded-md bg-slate-800 border border-slate-700 text-white shadow-lg hover:bg-slate-700 transition-all">Contact Me</a> */}
                     </div>
                 </div>
             </div>
@@ -37,7 +38,8 @@ export default function Home() {
             <About />
             <Projects />
             <Experience />
-            <Contact />
+            {/* Temporarily commenting out Contact component */}
+            {/* <Contact /> */}
         </div>
     );
 }
